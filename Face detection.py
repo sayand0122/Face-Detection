@@ -1,6 +1,7 @@
 import cv2
 
 cap=cv2.VideoCapture(0)
+#The path mentioned in the next line can be changed and the file is available in the previous directory
 detect = cv2.CascadeClassifier(r'C:\Users\Sayan\Downloads\FaceDetection-master\haarcascade_frontalface_default.xml')
 
 while True:
